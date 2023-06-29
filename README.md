@@ -1,2 +1,3 @@
 # Social-network
-Social network project
+Frontend on React
+Backend api from https://social-network.samuraijs.com/docs#
