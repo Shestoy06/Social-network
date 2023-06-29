@@ -1,0 +1,33 @@
+.button {
+  border-radius: 5px;
+
+  background-image: linear-gradient(to right, #800080FF 0%, #9733EE  51%, #DA22FF 100%);
+  background-size: 200% auto;
+  transition: 0.5s;
+
+
+  display: grid;
+  place-content: center;
+  align-self: flex-end;
+  padding: 5px 30px;
+  min-width: 120px;
+}
+
+.button span {
+  font-size: 18px;
+  color: #fff;
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.preloader {
+  width: 23px;
+}
+
+.preloader img {
+  height: 23px;
+}

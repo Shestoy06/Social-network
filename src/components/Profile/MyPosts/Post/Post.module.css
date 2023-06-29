@@ -1,0 +1,33 @@
+.post {
+  background: #212121;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.post__content {
+  display: flex;
+  align-items: center;
+}
+
+.post img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.post span {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.post__likes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.post__likes img {
+  margin-left: 5px;
+  width: 15px;
+}

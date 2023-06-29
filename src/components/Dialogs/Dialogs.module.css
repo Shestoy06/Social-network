@@ -1,0 +1,86 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  width: 100%;
+}
+
+.dialogs__items {
+
+}
+.dialog__item {
+
+}
+.dialogs__item a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.dialogs__item img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.dialogs__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.dialogs__messages {
+  padding-left: 30px;
+  border-left: 5px solid #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 500px;
+}
+
+.dialogs__messagesItems {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  overflow-y: auto;
+  max-height: 400px;
+  padding: 0 20px 0 0;
+
+}
+
+.dialogs__message {
+  background: rebeccapurple;
+  border-radius: 20px;
+}
+
+.dialogs__message_friend {
+  background: #323232;
+
+  align-self: flex-start;
+}
+
+.dialogs__message span {
+  display: inline-block;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.dialogs__message:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.dialogs__message:last-child {
+  margin-bottom: 30px;
+}
+
+.dialogs__input {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  align-self: flex-start;
+  color: #fff;
+  background-color: #212121;
+  margin-bottom: 10px;
+}
+
+

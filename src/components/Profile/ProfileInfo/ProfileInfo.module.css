@@ -1,0 +1,48 @@
+.profile__avatar {
+  position: relative;
+}
+.avatarImage{
+  max-width: 150px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 10;
+
+}
+
+.profile__content {
+  display: flex;
+  gap: 30px;
+
+}
+
+.profile__info {
+  width: 100%;
+  align-items: flex-end;
+  position: relative;
+}
+
+
+.profile__name {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.profile__additionalInfo {
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile__item {
+  font-size: 16px;
+}
+
+.profile__item a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.profile__status {
+  padding: 10px 0;
+  font-size: 18px;
+}

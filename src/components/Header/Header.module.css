@@ -1,0 +1,14 @@
+.header {
+  min-height: 74px;
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: #580088;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header__content {
+
+}

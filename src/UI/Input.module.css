@@ -1,0 +1,23 @@
+.Input__inner {
+    display: flex;
+    position: relative;
+
+}
+
+.errorText {
+    display: inline-block;
+    padding: 8px;
+    background-color: #fb4669;
+    color: #fff;
+    position: absolute;
+    left: 110%;
+    width: 100%;
+}
+
+input {
+    border: 2px solid transparent;
+}
+
+input.error {
+    border-color: #fb4669;
+}
